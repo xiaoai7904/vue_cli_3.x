@@ -1,4 +1,4 @@
-# uiDesign
+# vue cli 3.x configuration
 
 ## Project setup
 ```
