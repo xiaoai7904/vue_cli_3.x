@@ -2,7 +2,7 @@ module.exports = {
     pages: {
       index: {
         // page 的入口
-        entry: "src/main.ts",
+        entry: "src/main.js",
         // 模板来源
         template: "public/index.html",
         // 在 dist/index.html 的输出
@@ -21,14 +21,14 @@ module.exports = {
       // subpage: "src/subpage/main.ts"
     },
     productionSourceMap: false,
-    devServer: {
-      port: 8081,
-      proxy: {
-        "/api": {
-          target: "http://....",
-          changeOrigin: true
-        },
-      }
-    }
+    // devServer: {
+    //   port: 8081,
+    //   proxy: {
+    //     "/api": {
+    //       target: "http://....",
+    //       changeOrigin: true
+    //     },
+    //   }
+    // }
   };
   
